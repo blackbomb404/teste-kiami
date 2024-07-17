@@ -109,11 +109,8 @@ export class AppComponent implements AfterViewInit {
       this.meta.addTags([
         { property: 'og:title', content: 'Sample content for testing' },
         { property: 'og:description', content: 'You know what? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, vitae nemo quisquam aliquid culpa ut nulla. Quaerat deleniti, impedit natus quod, possimus nulla ullam fugiat doloremque eos obcaecati, ratione a.' },
-        { property: 'og:url', content: 'https://petite-points-glow.loca.lt/' },
-        { property: 'og:image', content: 'https://dev-back.kiami.ao/cms/FilesCMS/Repositorio/Imagens/6_imagem.jpeg' },
-        { property: 'og:image:alt', content: 'Just work bro' },
-        { property: 'og:image:height', content: '200' },
-        { property: 'og:image:width', content: '300' }
+        { property: 'og:url', content: 'https://teste-kiami.vercel.app/' },
+        { property: 'og:image', content: 'https://dev-back.kiami.ao/cms/FilesCMS/Repositorio/Imagens/6_imagem.jpeg' }
       ])
       
     })
