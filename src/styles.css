@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+@layer utilities {
+    .input-field {
+        @apply bg-input-bg px-5 py-2.5 placeholder:text-dark-blue placeholder:font-medium outline-none
+    }
+    .button {
+        @apply bg-dark-blue hover:bg-darker-blue transition-colors duration-[250] text-white px-8 py-2 uppercase
+    }
+    .no-scrollbar {
+        @apply [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]
+    }
+}
